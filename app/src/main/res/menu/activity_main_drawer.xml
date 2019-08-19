@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_home"
+        android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_jb"
+            android:title="@string/menu_jb" />
+        <item
+            android:id="@+id/nav_itz"
+            android:title="@string/menu_imperatriz" />
+        <item
+            android:id="@+id/nav_for"
+            android:title="@string/menu_fortaleza" />
+        <item
+            android:id="@+id/nav_tim"
+            android:title="@string/menu_timon" />
+        <item
+            android:id="@+id/nav_cas"
+            android:title="@string/menu_castanhal" />
+        <item
+            android:id="@+id/nav_rec"
+            android:title="@string/menu_recife" />
+        <item
+            android:id="@+id/nav_cg"
+            android:title="@string/menu_cg" />
+        <item
+            android:id="@+id/nav_nat"
+            android:title="@string/menu_natal" />
+
+        <item
+            android:id="@+id/nav_bah"
+            android:title="@string/menu_bahia" />
+    </group>
+
+</menu>

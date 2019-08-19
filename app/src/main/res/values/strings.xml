@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">e-Contatos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Grupo Jorge Batista</string>
+    <string name="nav_header_subtitle">Lista de Ramais por CD</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sair do e-Contatos</string>
+    // LISTA DE MENUS
+    <string name="menu_home">INÍCIO</string>
+    <string name="menu_jb">JORGE BATISTA</string>
+    <string name="menu_imperatriz">NAZ - IMPERATRIZ</string>
+    <string name="menu_fortaleza">NAZ - FORTALEZA</string>
+    <string name="menu_timon">NAZ - TIMON</string>
+    <string name="menu_castanhal">NAZ - CASTANHAL</string>
+    <string name="menu_recife">NAZ - RECIFE</string>
+    <string name="menu_cg">NAZ - CAMPINA GRANDE</string>
+    <string name="menu_natal">NAZ - NATAL</string>
+    <string name="menu_bahia">NAZ - FEIRA DE SANTANA</string>
+    <string name="menu_sair">Sair do e-Contatos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sobre">Sobre o e-Contatos</string>
+    <string name="apresentar_sobre">Desenvolvido pelo departamento de TI da NAZARIA IMPERTATRIZ - MA, o App e-Contatos tem o objetivo de listar todos os ramais separados por CD para facilitar a comunicação entre os colaboradores</string>
+    <string name="programador">Analista de Sistemas e Redes</string>
+</resources>

@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#B0FFFFFF"
+    android:scrollbarStyle="outsideInset"
+    android:scrollbars="vertical"
+    tools:context=".naz_bahia">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true" >
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B0FFFFFF"
+            android:paddingVertical="60dp"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+            <!-- Linha 1 com uma coluna-->
+
+
+            <!-- Linha 2 com 2 colunas -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+            <Button
+                android:id="@+id/btnLigarFixo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:padding="5sp"
+                android:text="GERAL  75 3604 1000" />
+            <!-- Linha 3 com 2 colunas -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="16dp"
+                android:gravity="center_horizontal"/>
+            <Button
+                android:id="@+id/btnLigarFree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:padding="5sp"
+                android:text="TELEVENDAS  0800-281-8811" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+            <!-- Linha 4 com 3 colunas -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Gerência"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="153dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="João Paulo"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1010"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // 5 linha
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Coord. Administrativo"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Renato"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1011"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ======================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Administrativo"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Diretoria"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1012"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // =====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Fiscal"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adonias"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1013"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ==================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Crédito E Cobrança"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Cristiane"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1004"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ======================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Crédito E Cobrança"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Thaisa"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1006"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ==========================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Crédito E Cobrança"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Renata"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1007"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Crédito E Cobrança"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Bruno"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1008"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            ///// ===========================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Almoxarifado"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Wellington"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1014"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="RH"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Nirailma"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1015"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ======================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="DP"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Daiene"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10dip"
+                    android:text="8844"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ==============================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adm Vendas"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Erlane"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10dip"
+                    android:text="8843"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ========================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adm. Vendas"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Verônica"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1018"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ==========================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adm. Vendas"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Cássio"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1019"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adm Vendas Unilever"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Virginia"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1020"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adm Vendas Unilever"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Evelyn"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1021"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Coord. Televendas"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Lilia"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1023"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Televendas"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adalberta"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1024"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adm Vendas Johnson"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Manuella"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1027"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Adm Vendas Johnson"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Tamyres"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1028"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Administrativo"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="INDÚSTRIA"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1029"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Administrativo"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="SUPERVISÃO "
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1030"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="TI"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Edigar"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1031"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="TI"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Sergio"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1032"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Logística"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Luis Carlos"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1033"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Logística"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Jesiel"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1034"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Logística"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Almeida/Bernardo"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1037"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Logística"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Pré-nota"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1043"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Farmacêutico"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Fabio"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1035"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Farmacêutico"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Vivian"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1036"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Expedição"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Malick/Lia"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1033"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Expedição"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Karoline/Sara"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1039"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Recebimento"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="LMiraldo/Márcia"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1040"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Devolução"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Clientes"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1041"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Devolução"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Fornecedores"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1042,"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Devolução"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Globo"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1044"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Recepção"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Leticia"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1001"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="FAX"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1003"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Portaria"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Paulo/Hamilton"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:text="1002"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="10px"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            // ====================================
+
+        </TableLayout>
+
+
+    </ScrollView>
+    //============================================
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#B0FFFFFF"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:background="#A7F8F5F5"
+                android:freezesText="true"
+                android:padding="18dip"
+                android:text="Feira de Santana - BH"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+    </TableLayout>
+
+</RelativeLayout>
